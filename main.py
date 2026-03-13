@@ -1,5 +1,8 @@
 # main.py
-print("пожаловать в супер-калькулятор v.2")
+<<<<<<< HEAD
+=======
+print("Добро  калькулятор!")
+>>>>>>> feature/multiply
 def add(a, b):
     return a + b
 def subtract(a, b):   # <-- Новая функция
