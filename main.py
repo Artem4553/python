@@ -1,10 +1,12 @@
 # main.py
-print("Добро пожаловать в калькулятор!")
+print("Добро пожаловать в супер-калькулятор v.2")
 def add(a, b):
     return a + b
 def subtract(a, b):   # <-- Новая функция
     return a - b
+def multiply(a, b):
+    return a * b
 if __name__ == "__main__":
     print(f"2 + 2 = {add(2, 2)}")
     print(f"10 - 3 = {subtract(10, 3)}") # <-- Новая строка
-
+    print(f"5 * 3 = {multiply(5, 3)}")
